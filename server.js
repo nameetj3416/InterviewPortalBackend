@@ -126,6 +126,22 @@ app.get('/auth/google/user',
 // })
 
 // user routes, only applicable after user has login
+app.get('/opthree', function(req, res) {
+  if(req.isAuthenticated()){
+    User.find({
+      email: req.user.email
+    }, 
+    function(err, foundUser){
+      if(err){
+        console.log(err);
+      }
+      else{
+        var path = require('path');
+        res.sendFile(path.resolve('views/opthree.html'));
+      }
+    });
+  }
+});
 app.get('/user', function(req, res) {
 
   if(req.isAuthenticated()){
@@ -150,7 +166,7 @@ app.get('/user', function(req, res) {
           res.sendFile(path.resolve('views/library.html'));
         }
         else{
-          res.sendFile(path.resolve('views/optwo.html'));
+          res.redirect('/opthree');
         }
       }
     });
@@ -159,8 +175,8 @@ app.get('/user', function(req, res) {
     console.log(req.user._id)
     res.redirect('/');
   }
-
 });
+
 app.get('/intaff', function(req, res) {
 
   if(req.isAuthenticated()){
