@@ -150,7 +150,6 @@ app.get('/user', function(req, res) {
           res.sendFile(path.resolve('views/library.html'));
         }
         else{
-          var path = require('path');
           res.sendFile(path.resolve('views/opthree.html'));
         }
       }
