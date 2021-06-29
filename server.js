@@ -135,22 +135,23 @@ app.get('/user', function(req, res) {
         console.log(err);
       }
       else{
-        let {joinDate} = req.user[0];
-
-        joinDate = new Date(joinDate);
-        console.log(joinDate);
-        let curr_date = new Date();
-        curr_date.setMonth((curr_date.getMonth() - 3 + 12)%12);
-        console.log(curr_date);
-        const flag = (joinDate > curr_date);
-        if(req.user.length && flag){
-          var path = require('path');
-          res.sendFile(path.resolve('views/library.html'));
+        if(req.user.length){
+          let {joinDate} = req.user[0];
+          joinDate = new Date(joinDate);
+          console.log(joinDate);
+          let curr_date = new Date();
+          curr_date.setMonth((curr_date.getMonth() - 3 + 12)%12);
+          console.log(curr_date);
+          const flag = (joinDate > curr_date);
+          if(flag){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else{
+            res.redirect('/');
+          }
         }
-        else if(!flag){
-          res.redirect('/');
-        }
-        else if(req.user.length==0){
+        else{
           res.redirect('/');
         }
       }
