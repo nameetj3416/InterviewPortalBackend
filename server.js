@@ -120,10 +120,10 @@ app.get('/auth/google/user',
 
 
 
-app.get('/logout', function(req, res) {
-  req.logout();
-  res.redirect('/');
-})
+// app.get('/logout', function(req, res) {
+//   req.logout();
+//   res.redirect('/');
+// })
 
 // user routes, only applicable after user has login
 app.get('/user', function(req, res) {
