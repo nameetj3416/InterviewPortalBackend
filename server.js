@@ -62,7 +62,7 @@ passport.deserializeUser(function(user, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://localhost:5000/auth/google/user",
+    callbackURL: "https://schrodingerbyggi.herokuapp.com/auth/google/user",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
   },
   
