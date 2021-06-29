@@ -122,7 +122,7 @@ app.get('/auth/google/user',
 
 app.get('/opthree', function(req, res) {
   var path = require('path');
-  res.sendFile('views/opthree.html');
+  res.sendFile(path.resolve('views/opthree.html'));
 });
 app.get('/user', function(req, res) {
 
@@ -148,11 +148,11 @@ app.get('/user', function(req, res) {
             res.sendFile(path.resolve('views/library.html'));
           }
           else{
-            res.redirect('/');
+            res.redirect('/opthree');
           }
         }
         else{
-          res.redirect('/');
+          res.redirect('/opthree');
         }
       }
     });
