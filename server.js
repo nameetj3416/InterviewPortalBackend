@@ -128,7 +128,7 @@ app.get('/user', function(req, res) {
 
   if(req.isAuthenticated()){
     User.find({
-      email: req.user[0].email
+      email: req.user.email
     }, 
     function(err, foundUser){
       if(err){
@@ -159,7 +159,7 @@ app.get('/user', function(req, res) {
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 });
 
