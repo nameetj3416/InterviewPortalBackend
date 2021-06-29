@@ -281,6 +281,12 @@ app.get('/malaria', function(req, res) {
   }
 
 });
+const proxy = require('http-proxy-middleware')
+
+module.exports = function(app) {
+    // add other server routes to path array
+    app.use(proxy(['/' ], { target: 'http://localhost:5000' }));
+}
 
 const PORT = process.env.PORT || 5000;
 
