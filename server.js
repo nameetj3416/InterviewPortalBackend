@@ -148,7 +148,7 @@ app.get('/user', function(req, res) {
           res.sendFile(path.resolve('views/library.html'));
         }
         else{
-          res.redirect('/opthree');
+          res.redirect('/');
         }
       }
     });
