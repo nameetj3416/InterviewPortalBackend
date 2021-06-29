@@ -120,27 +120,9 @@ app.get('/auth/google/user',
 
 
 
-// app.get('/logout', function(req, res) {
-//   req.logout();
-//   res.redirect('/');
-// })
-
-// user routes, only applicable after user has login
 app.get('/opthree', function(req, res) {
-  if(req.isAuthenticated()){
-    User.find({
-      email: req.user.email
-    }, 
-    function(err, foundUser){
-      if(err){
-        console.log(err);
-      }
-      else{
-        var path = require('path');
-        res.sendFile(path.resolve('views/opthree.html'));
-      }
-    });
-  }
+  var path = require('path');
+  res.sendFile('views/opthree.html');
 });
 app.get('/user', function(req, res) {
 
