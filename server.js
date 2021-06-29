@@ -147,7 +147,10 @@ app.get('/user', function(req, res) {
           var path = require('path');
           res.sendFile(path.resolve('views/library.html'));
         }
-        else{
+        else if(!flag){
+          res.redirect('/');
+        }
+        else if(req.user.length==0){
           res.redirect('/');
         }
       }
