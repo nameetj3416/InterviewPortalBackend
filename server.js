@@ -142,15 +142,15 @@ app.get('/user', function(req, res) {
         joinDate = new Date(joinDate);
         console.log(joinDate);
         let curr_date = new Date();
-        curr_date.setMonth(curr_date.getMonth() - 3);
+        curr_date.setMonth((curr_date.getMonth() - 3 + 12)%12);
         console.log(curr_date);
         const flag = (joinDate > curr_date);
         if(req.user.length && flag){
           var path = require('path');
-          res.sendFile(path.resolve('views/library.html'));
-        }
-        else{
           res.sendFile(path.resolve('views/opthree.html'));
+        }
+        else if(){
+          res.sendFile(path.resolve('views/library.html'));
         }
       }
     });
