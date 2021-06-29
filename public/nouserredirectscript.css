@@ -1,0 +1,119 @@
+.headerT{
+  display: flex;
+  padding-bottom: 30px;
+}
+.header_picT{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.heading{
+  padding-top: 35px;
+  padding-right: 15px;
+  font-family: 'Cinzel', serif;
+}
+.up{
+  font-size: 17px;
+  font-size: 1.5vw;
+}
+.down{
+  font-size: 14px;
+  font-size: 1vw;
+
+}
+.links{
+  font-size: 13px;
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+  font-weight: bold;
+}
+a:link, a:visited{
+  padding-right: 13px;
+  text-decoration: none;
+  color:black;
+}
+.dropbtn {
+  border: none;
+  font-weight: bold;
+  font-size: 13px;
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.dropdown {
+  font-size: 13px;
+  /* position: relative; */
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.content{
+  font-size:18px;
+  font-size:1.4vw;
+  padding-left: 14vw;
+  padding-right: 14vw;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #faeded;
+  font-family: 'Cinzel', serif;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.apply {
+  background-color: #ff6161;
+  border-color:#ff6161;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border:none;
+
+}
