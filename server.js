@@ -147,10 +147,10 @@ app.get('/user', function(req, res) {
         const flag = (joinDate > curr_date);
         if(req.user.length && flag){
           var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.sendFile(path.resolve('views/library.html'));
         }
         else{
-          res.sendFile(path.resolve('views/library.html'));
+          res.sendFile(path.resolve('views/opthree.html'));
         }
       }
     });
