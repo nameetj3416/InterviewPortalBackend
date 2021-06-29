@@ -149,7 +149,7 @@ app.get('/user', function(req, res) {
           var path = require('path');
           res.sendFile(path.resolve('views/opthree.html'));
         }
-        else if(){
+        else{
           res.sendFile(path.resolve('views/library.html'));
         }
       }
