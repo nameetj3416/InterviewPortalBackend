@@ -150,7 +150,7 @@ app.get('/user', function(req, res) {
           res.sendFile(path.resolve('views/library.html'));
         }
         else{
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.sendFile(path.resolve('views/optwo.html'));
         }
       }
     });
