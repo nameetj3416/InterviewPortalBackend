@@ -36,13 +36,13 @@ a:link, a:visited{
   border: none;
   font-weight: bold;
   font-size: 13px;
-  font-size: 1vw;
   font-family: 'Poppins', sans-serif;
   background-color: white;
 }
 
 .dropdown {
   font-size: 13px;
+  font-size: 1vw;
   /* position: relative; */
   display: inline-block;
 }
