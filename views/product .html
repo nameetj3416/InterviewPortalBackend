@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>restaurant</title>
+<title>product</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:0.1em}0%,to{top:0px}}@keyframes shudder{25%{left:0.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:0.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:0.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%, to{transform:translateX(0em)}5%, 25%, 45%{transform:translateX(-1em)}15%, 35%, 55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%, to{transform:translateY(0em)}5%, 25%, 45%{transform:translateY(-1em)}15%, 35%, 55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%, 8.1%, 82.1%, 31.1%, 38.1%, 44.1%, 40.1%, 47.1%, 74.1%, 16.1%, 27.1%, 72.1%, 24.1%, 95.1%, 6.1%, 36.1%, 20.1%, 4.1%, 91.1%, 14.1%, 87.1%, to{left:0px;top:0px}8%, 82%, 31%, 38%, 44%{left:-1px}40%, 47%, 74%, 16%, 27%{left:1px}72%, 24%, 95%, 6%, 36%{top:-1px}20%, 4%, 91%, 14%, 87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:black;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" title="' attr(title) '">'}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,0.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,0.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,0.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,0.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,0.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,0.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,0.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,0.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,0.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,0.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,0.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,0.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,0.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 0.5em 0.5em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel-source,tw-debugger .panel-row-source{font-family:monospace;overflow-x:scroll;white-space:pre;-ms-flex-preferred-size:100%;flex-basis:100%}tw-debugger .panel-row-source{margin:5px 0}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background:#EEE}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:0.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#444;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row>*{display:table-cell;padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .error-row .error-passage{color:#444}tw-debugger .storylet-row{background-color:rgba(201,233,222,0.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(128,203,178,0.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;opacity:0.4;background-color:rgba(217,217,217,0.3)}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:rgba(166,166,166,0.3)}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,0.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-debugger .resizer{position:absolute;height:3em;border-left:2px solid #ccc;border-right:2px solid #ccc;top:10px;left:4px;width:8px;cursor:ew-resize}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media (min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop ~ tw-backdrop{display:none}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage [style^="color"] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-link:hover,tw-passage [style*=" color"][hover="true"] tw-link:hover,tw-passage [style^="color"] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^="color"][hover="true"] .enchantment-link:hover,tw-passage [style*=" color"][hover="true"] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage [style^="color"] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^="color"][hover="true"] .visited:hover,tw-passage [style*=" color"][hover="true"] .visited:hover{color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage [style^="color"] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-broken-link:hover,tw-passage [style*=" color"][hover="true"] tw-broken-link:hover{color:inherit}.enchantment-mouseover{border-bottom:2px dashed #999}.enchantment-mouseout{border:rgba(64,149,191,0.6) 1px solid}.enchantment-mouseout:hover{background-color:rgba(175,197,207,0.75);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,0.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,0.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 0.5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 0.5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,0.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,0.75);border:transparent 2px solid;border-radius:0.2em}tw-link.enchantment-button,.enchantment-link.enchantment-button,.enchantment-button:not(.enchantment-link) tw-link,.enchantment-button:not(.enchantment-link) .enchantment-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media (min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:transparent;font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 0.5em}tw-story tw-noscript{animation:appear 0.8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*="width"]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:0.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:0.2}tw-icon[alt]:hover{opacity:0.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,0.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;padding:2px;white-space:pre}tw-folddown::after{content:"\25b6"}tw-folddown.open::after{content:"\25bc"}tw-open-button::after{content:"Open"}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play restaurant.</tw-noscript></noscript></tw-story>
-<tw-storydata name="restaurant" startnode="1" creator="Twine" creator-version="2.3.14" ifid="349C462F-D6E7-4EB4-8EB3-50EC6383FFB9" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play product.</tw-noscript></noscript></tw-story>
+<tw-storydata name="product" startnode="1" creator="Twine" creator-version="2.3.14" ifid="593060DC-03AC-4E83-807C-EA600F885ADF" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
   /* The following changes the text */
   color: black; /* Set text to green or other color */
 
@@ -179,6 +179,35 @@ input::-webkit-inner-spin-button {
 
 .arrow-steps .step.done:after {
   border-left: 17px solid #b31919;
+}
+@media screen and (max-width: 800px) {
+ 	#container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  	}
+   #subtitle, #share, #slider, #sidebar{
+	  display:none;
+	}
+   .arrow-steps .step{
+	 width: auto;
+	 font-size: auto;
+	 margin: auto;
+  	 padding: auto;
+	 border-bottom: auto;
+  		text-align: center;
+  		float: none;
+  		position: auto;
+   }
+  .arrow-steps .step:after,
+  .arrow-steps .step:before{
+	border: none;
+  }
+  .arrow-steps .step:last-child:after,
+  .arrow-steps .step:first-child:before{
+	border: none;
+  }
+
+	p{ font-size: 1em; }
 }
 
 /* Firefox */
@@ -379,7 +408,8 @@ tw-link:hover {
 
 &lt;/style&gt;
 
-</tw-passagedata><tw-passagedata pid="3" name="CaseIntro" tags="" position="508.6666666666667,0" size="100,100">(set: $ps to 65)
+</tw-passagedata><tw-passagedata pid="3" name="CaseIntro" tags="" position="563,106" size="100,100">
+(set: $ps to 65)
 (set: $synthesis to 65)
 (set: $structuring to 65)
 (set: $rigor to 65)
@@ -388,24 +418,27 @@ tw-link:hover {
 (set: $oppcost to 1)
 &lt;link href=&#39;https://fonts.googleapis.com/css?family=Poppins&#39; rel=&#39;stylesheet&#39;&gt;
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;left&quot;&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/nfonhowrpvoe4hd/restaurant.jpg?raw=1&quot; style=&quot;object-fit: cover&quot; width=100% height=80%&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/q5ftj8v8l5s5nvq/Product%20Intro.jpg?raw=1&quot; style=&quot;object-fit: cover&quot; width=100% height=80%&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;&lt;div style=&quot;font-family: &#39;Poppins&#39;, sans-serif;&quot;&gt;
-&lt;b&gt;Policy Consulting Problem Overview&lt;/b&gt;
+&lt;b&gt;Product Management Problem Overview&lt;/b&gt;
 &lt;p style=&quot;text-align:justify&quot;&gt;
 (css: &quot;color: black;&quot;)[
-Your client is a restaurant owner who has been in business since last 5 years but recently has seen a decline in profits for the past 3 months.
+In a product management case they want to understand your structured thinking. Considering this, you need to help
+your client, the leading cab aggregator, Uber. With the COVID-19 pandemic, the economy has been at standstill and although things are getting better, cab travel is still low as compared to pre-COVID times.
 
-You have been hired to analyse the problem and figure out ideal solutions to get the business back on track.
+You have been hired to find solutions for Uber to keep the customers on the platform and engaged during the pandemic.
 ]&lt;/p&gt;&lt;/div&gt;
 &lt;span class=&#39;green&#39;&gt;[[Click to continue-&gt;prescoping]]&lt;/span&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="4" name="Scoping" tags="" position="834,28" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="4" name="Scoping" tags="" position="890,134" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
        &lt;b&gt;Sure. What would you like to ask the interviewer?&lt;/b&gt;
@@ -415,19 +448,15 @@ You have been hired to analyse the problem and figure out ideal solutions to get
 &lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
 &lt;form&gt;
 
-(css: &quot;color: black;&quot;)[&lt;label class=&quot;container&quot;&gt;Where is the restaurant located?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q1&quot;&gt;
+(css: &quot;color: black;&quot;)[&lt;label class=&quot;container&quot;&gt;What geography are we looking at?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q1&quot;&gt;
   &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-&lt;label class=&quot;container&quot;&gt;What type of outlet is it (Takeaway/Dining)?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q2&quot;&gt;
+&lt;label class=&quot;container&quot;&gt;What are the operating time for the Uber drivers?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q2&quot;&gt;
   &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-&lt;label class=&quot;container&quot;&gt;What are the operating timings?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q3&quot;&gt;
+&lt;label class=&quot;container&quot;&gt;How many rides a driver does in a day?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q3&quot;&gt;
   &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-&lt;label class=&quot;container&quot;&gt;How has COVID impacted the business?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q4&quot;&gt;
+&lt;label class=&quot;container&quot;&gt;Uber could acquire Ola to consolidate the market?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q4&quot;&gt;
   &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-&lt;label class=&quot;container&quot;&gt;What type of meals does the restaurant serves?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q5&quot;&gt;
-  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-&lt;label class=&quot;container&quot;&gt;What is the size of the restaurant?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q6&quot;&gt;
-  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
-&lt;label class=&quot;container&quot;&gt;How many employees are working in the restaurant?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q7&quot;&gt;
+&lt;label class=&quot;container&quot;&gt;What is the average cost of a ride?&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q5&quot;&gt;
   &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
 &lt;/form&gt;
 &lt;script&gt;processInputElements();&lt;/script&gt;
@@ -435,8 +464,8 @@ You have been hired to analyse the problem and figure out ideal solutions to get
 ]
 &lt;span class=&#39;green&#39;&gt;[[Submit-&gt;scopinganswers]]&lt;/span&gt;
 &lt;/div&gt;
-  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="Q1" tags="" position="1312.6666666666667,26.333333333333332" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="Q1" tags="" position="1366,29" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
@@ -447,14 +476,14 @@ Alright, now that we have understood the problem better, below are some of the p
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I would like to think the problem as a profitability scenario where we are maximizing income of the restaurant.-&gt;opt1]]
+[[I would like to start with analysing each pain point discussed above one-by-one before proceeding for solutions.-&gt;opt1]]
 
-[[I believe the average price per product sold is too low and hence we should increase the prices to drive the revenue.-&gt;opt2]]
+[[I believe Uber should increase its operations by offering more cab rides at discounted rates. This will attract more customers.-&gt;opt2]]
 
-[[I believe the restaurant should start building a farming infrastructure to reduce the raw material costs thereby lowering the cost in turn increasing the revenue.-&gt;opt3]]
+[[I believe Uber should more actively send messages to customers about safety regulations. They should hold campaigns and surveys to win the customers sentiment.-&gt;opt3]]
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="6" name="end" tags="" position="244,2607" size="100,100">&lt;div class=&quot;centered&quot;&gt;
+</tw-passagedata><tw-passagedata pid="6" name="end" tags="" position="300,2713" size="100,100">&lt;div class=&quot;centered&quot;&gt;
 &lt;div style=&quot;font-family: &#39;Poppins&#39;, sans-serif;&quot;&gt;&lt;div style=&quot;&quot;&gt;
 
 &lt;div style=&quot;&quot;&gt;&lt;b&gt;CONGRATULATIONS!
@@ -516,7 +545,7 @@ Problem Solving Acumen : $ps / 100
 Synthesis : $synthesis / 100
 Structuring: $structuring / 100]
 
-Thank you for participating in Schrödinger policy problem. We hope this was a fruitful learning experience.
+Thank you for participating in GGI Schrödinger product problem. We hope this was a fruitful learning experience.
 
 
 
@@ -524,8 +553,8 @@ Thank you for participating in Schrödinger policy problem. We hope this was a f
 
 (css: &quot;color: black; font-size: 21px&quot;)[
 [[Want to try the case again? Click here to restart.-&gt;Landing]]
-]</tw-passagedata><tw-passagedata pid="8" name="scopinganswers" tags="" position="1051,26.333333333333332" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+]</tw-passagedata><tw-passagedata pid="8" name="scopinganswers" tags="" position="1105,134" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
        &lt;b&gt;For all the questions you have asked, these are the answers to the relevant questions :
@@ -535,33 +564,27 @@ Thank you for participating in Schrödinger policy problem. We hope this was a f
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
 {
-(if: $Q1 is &quot;on&quot;)[&lt;b&gt;Where is the restaurant located?&lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[The restaurant is located in Mumbai, India.
+(if: $Q1 is &quot;on&quot;)[&lt;b&gt;What geography are we looking at?&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[We are focussing on solving the problem for India.
 &lt;/div&gt;]]
-(if: $Q2 is &quot;on&quot;)[&lt;b&gt; What type of outlet is it (Takeaway/Dining)? &lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[It&#39;s a dining only restaurant.
+(if: $Q2 is &quot;on&quot;)[&lt;b&gt; What are the operating time for the Uber drivers? &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Uber drivers generally work in shifts of 8-12 hours although there is a continuous availability of cabs throughout the 24 hours.
 &lt;/div&gt;]]
-(if: $Q3 is &quot;on&quot;)[&lt;b&gt; What are the operating timings?  &lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[The restaurant operates for 12 hours a day from 10 AM to 10 PM.
+(if: $Q3 is &quot;on&quot;)[&lt;b&gt; How many rides a driver does in a day?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[A driver would generally do somewhere around 10-12 rides per day on a normal day.
 &lt;/div&gt;]]
-(if: $Q4 is &quot;on&quot;)[&lt;b&gt; How has COVID impacted the business?  &lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[For this case, we&#39;ll assume pre-COVID scenario.
+(if: $Q4 is &quot;on&quot;)[(set: $ps to $ps - 5)(b&gt; Uber could acquire Ola to consolidate the market?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Let&#39;s not jump to conclusions in scoping.
 &lt;/div&gt;]]
-(if: $Q5 is &quot;on&quot;)[&lt;b&gt; What type of meals does the restaurant serves?  &lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[The above question is not relevant to the case.
-&lt;/div&gt;]]
-(if: $Q6 is &quot;on&quot;)[&lt;b&gt; What is the size of the restaurant?  &lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[The above question is not relevant to the case.
-&lt;/div&gt;]]
-(if: $Q7 is &quot;on&quot;)[&lt;b&gt; How many employees are working in the restaurant?  &lt;/b&gt;
-&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[The above question is not relevant to the case.
+(if: $Q5 is &quot;on&quot;)[&lt;b&gt; What is the average cost of a ride?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[It generally costs INR 150-200 for a Uber ride in India.
 &lt;/div&gt;]]
 }
-&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;Q1]]&lt;/span&gt;
+&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;pp]]&lt;/span&gt;
 &lt;/div&gt;
   &lt;/div&gt;&lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="9" name="prescoping" tags="" position="475,156.66666666666666" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="9" name="prescoping" tags="" position="528,216" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
@@ -572,17 +595,17 @@ How would you like to begin?&lt;/b&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I believe reducing the salary of employees could be a suitable measure to increase the revenue.-&gt;jumping]]
+[[I believe that Uber should change its messaging strategy to increase  brand awareness thereby increasing overall engagement.-&gt;jumping]]
 
 [[I would like to begin by asking a few questions to understand the problem better.-&gt;Scoping]]
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="10" name="jumping" tags="" position="677,128" size="100,100">(set: $ps to $ps - 10)
+</tw-passagedata><tw-passagedata pid="10" name="jumping" tags="" position="733,234" size="100,100">(set: $ps to $ps - 10)
 (set: $synthesis to $synthesis - 10)
 (set: $structuring to $structuring - 10)
 (set: $rigor to $rigor - 10)
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
@@ -597,11 +620,11 @@ Let&#39;s not get to a conclusion so quickly. Why not spend some time understand
 
 &lt;/div&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="11" name="opt1" tags="" position="1525,239" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="11" name="opt1" tags="" position="1579,373" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
-&lt;b&gt;Good going, nice approach.
+&lt;b&gt;Good going. Nice approach!
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -611,19 +634,17 @@ Let&#39;s not get to a conclusion so quickly. Why not spend some time understand
 [[Continue.-&gt;opt1.1]]
 
 &lt;/div&gt;
-  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="opt2" tags="" position="1575.6666666666667,120.33333333333333" size="100,100">(set: $ps to $ps - 10)
+  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="opt2" tags="" position="1735,238" size="100,100">(set: $ps to $ps - 10)
 (set: $synthesis to $synthesis - 15)
 (set: $structuring to $structuring - 15)
 (set: $rigor to $rigor - 10)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Great to see your confidence, but why not get the bigger picture before making a decision?
-Let&#39;s analyze the problem through a profitability scenario to better understand the problem.
-&lt;/b&gt;
+Let&#39;s not jump to conclusions. Why don&#39;t you analyze the pain-points first? &lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -635,18 +656,17 @@ Let&#39;s analyze the problem through a profitability scenario to better underst
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="13" name="opt3" tags="" position="1971,28" size="100,100">(set: $ps to $ps - 10)
+</tw-passagedata><tw-passagedata pid="13" name="opt3" tags="" position="2030,130" size="100,100">(set: $ps to $ps - 10)
 (set: $synthesis to $synthesis - 15)
 (set: $structuring to $structuring - 15)
 (set: $rigor to $rigor - 10)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Great to see your confidence, but why not get the bigger picture before making a decision?
-Let&#39;s analyze the problem through a profitability scenario to better understand the problem.  &lt;/b&gt;
+Let&#39;s not jump to conclusions. Why don&#39;t you analyze the pain-points first.&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -657,32 +677,31 @@ Let&#39;s analyze the problem through a profitability scenario to better underst
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="14" name="opt1.1" tags="" position="1089,148" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="14" name="opt1.1" tags="" position="1146,254" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Sure let&#39;s think the problem as a profitability scenario where we are maximizing income of the restaurant.
+Sure, let&#39;s start with understanding demand conundrum and why is it decreasing.
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[Profitability is affected by the market situation. I would like to analyse the spending behaviour of consumers.-&gt;opt1.1.2.1.2]]
+[[I would like to study the consumer demands for transportation during the pandemic to identify the root-cause.-&gt;opt1.1.2.1.1]]
 
-[[Profitability is revenue minus costs. Let’s look at Revenue and Costs to look at ways to improve profitability .-&gt;opt1.1.2.1.1]]
+[[I believe that the high cost of Uber is leading to decreasing demand.-&gt;opt1.1.2.1.2]]
 
-[[Profitability is mostly dependent on revenues as the cost to produce will increase over time due to inflation anyway. -&gt;opt1.1.2.1.3]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="15" name="opt1.1.2.1.1" tags="" position="663,448" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="15" name="opt1.1.2.1.1" tags="" position="604,420" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Which of these factors would you like to look at first?   
+The regular and business customer demand is largely affected during the pandemic with majority of rides being for essential services vis a vis hospitals, grocery shopping etc 
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -690,24 +709,26 @@ Which of these factors would you like to look at first?   
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[Lowering the costs without compromising on the output can increase the net income. So, I would like to analyse costs -&gt;fa]]
+[[I believe, Uber should start delivering groceries through its driver partners to increase demand from consumers.-&gt;fa]]
 
-[[I’d like to explore whether it’s possible to increase revenues.-&gt;opt1.1.2.1.2.1]]
+[[I believe Uber should build an aggressive ad campaign to increase demand.-&gt;fa]]
+
+[[Considering the above, I believe we should look into possible addition of services to serve the increasing demand for transportation to essential services or easing the process for the consumers.-&gt;opt1.1.2.1.2.1]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="16" name="opt1.1.2.1.2" tags="" position="1125.3333333333333,341" size="100,100">(set: $ps to $ps - 5)
-(set: $synthesis to $synthesis - 6)
-(set: $structuring to $structuring - 8)
-(set: $rigor to $rigor - 5)
+</tw-passagedata><tw-passagedata pid="16" name="opt1.1.2.1.2" tags="" position="1261,447" size="100,100">(set: $ps to $ps - 8)
+(set: $synthesis to $synthesis - 10)
+(set: $structuring to $structuring - 10)
+(set: $rigor to $rigor - 8)
 
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Sure. But before we proceed, how do you plan to utilize cross country data and apply it in the Indian context?
+Let&#39;s not jump to conclusions. Why don&#39;t you analyze the current demand levels first?
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -715,60 +736,35 @@ Sure. But before we proceed, how do you plan to utilize cross country data and a
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[Profitability is revenue minus costs. Let’s look at Revenue and Costs to look at ways to improve profitability .-&gt;opt1.1.2.1.1]]
+[[I would like to study the consumer demands for transportation during the pandemic to identify the root-cause .-&gt;opt1.1.2.1.1]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="17" name="fa" tags="" position="486,694" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-Alright, What do you think are the key cost levers for the client?
-&lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[I would want to break the cost into two components: Fixed costs and Variable costs.-&gt;fa1]]
-
-[[I believe reducing the salary of employees could be a suitable measure .-&gt;fa2]]
-
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="18" name="fa1" tags="" position="551,1354" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-Sounds Good. Please proceed.
-&lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[I believe the breakup should be as follows: Fixed costs: Raw materials, Employee Pay Variable Cost: Rent, Utilities.-&gt;fa3]]
-
-[[The breakup for the cost components would be as follows: Fixed costs: Rent, Employee Pay, Utilities Variable Cost: Raw materials-&gt;fa4]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="19" name="fa2" tags="" position="607,937" size="100,100">(set: $ps to $ps - 5)
-(set: $synthesis to $synthesis - 6)
-(set: $structuring to $structuring - 8)
-(set: $rigor to $rigor - 5)
+</tw-passagedata><tw-passagedata pid="17" name="fa" tags="" position="420,783" size="100,100">(set: $ps to $ps - 6)
+(set: $rigor to $rigor - 6)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Let us further analyse before concluding anything. Pay-cuts/ lay-offs should ideally be the last resort.
+I understand where this is coming from but let&#39;s not jump to conclusions without identifying the root cause to create better and more personalized solutions for the users. Why don&#39;t you identify he most frequently travelled places/use cases for the customers during the pandemic to narrow the scope of the problem? &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[Continue.-&gt;pp2]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="18" name="fa1" tags="" position="705,2435" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Sounds good. How do you plan on solving problems on these two fronts?
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -776,25 +772,18 @@ Let us further analyse before concluding anything. Pay-cuts/ lay-offs should ide
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
+[[We can ensure sanitization after every customer use and the drivers can get a thin plastic sheet to make a wall between themselves and the customer.-&gt;fa3]]
 
-[[I would want to break the cost into two components: Fixed costs and Variable costs.-&gt;fa1]]
-
-[[A lot of money would go into paying for rent. Cutting down on rent by changing the destination for restaurant should be an alternative.-&gt;fa6]]
+[[Consumers can bring their own sanitizers to clean the car backseat, so they feel safe.-&gt;fa4]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="20" name="fa3" tags="" position="937.6666666666666,545.6666666666666" size="100,100">(set: $ps to $ps - 4)
-(set: $synthesis to $synthesis - 5)
-(set: $structuring to $structuring - 6)
-(set: $rigor to $rigor - 5)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="19" name="fa3" tags="" position="541,1996" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-That&#39;s an inaccurate breakup. Rent and utilities are fixed costs.
-
+That&#39;s nice, but how will customers know about the steps uber is taking in this direction.
 
 &lt;/b&gt;
 
@@ -803,18 +792,13 @@ That&#39;s an inaccurate breakup. Rent and utilities are fixed costs.
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[The breakup for the cost components would be as follows: Fixed costs: Rent, Employee Pay, Utilities Variable Cost: Raw materials-&gt;fa4]]
+[[Active advertisements can help spread the word with demonstrated videos of car sanitization at play. This can help us with consumer safety perception.-&gt;fa5]]
 
 
 &lt;/div&gt;
   &lt;/div&gt;
-	</tw-passagedata><tw-passagedata pid="21" name="fb1" tags="" position="1855,1182" size="100,100">(set: $ps to $ps - 3)
-(set: $synthesis to $synthesis - 4)
-(set: $structuring to $structuring - 5)
-(set: $rigor to $rigor - 3)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+	</tw-passagedata><tw-passagedata pid="20" name="fb1" tags="" position="1836,1235" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
@@ -832,41 +816,38 @@ Let&#39;s not jump to conclusions so quickly, why don&#39;t we take a step back.
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="22" name="fb3" tags="" position="2371,1250" size="100,100">(set: $ps to $ps - 4)
-(set: $synthesis to $synthesis - 5)
-(set: $structuring to $structuring - 6)
-(set: $rigor to $rigor - 4)
+</tw-passagedata><tw-passagedata pid="21" name="fb3" tags="" position="2522,1031" size="100,100">(set: $synthesis to $synthesis - 4)
+(set: $structuring to $structuring - 4)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Let&#39;s not jump to conclusions so quickly, why don&#39;t we take a step back.
-&lt;/b&gt;
+Let&#39;s not jump to conclusions without analysing. considering assistance during hospitalisations will be difficult through Uber, let&#39;s focus on facilitating vaccination drive. &lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-(set: $J2 to 0)(if: $J1 is 1)[[I believe the revenue depends on the location of the restaurant, as which type of customers come and buy their products.-&gt;fb1]]
+(set: $J2 to 0)(if: $J1 is 1)[[Considering the unavailability of vaccine slots across the nation, Uber could introduce a notifier system to give customers real time notification as soon as vaccine become available, which could be possible considering the open-source nature of COWIN API.-&gt;fb10]]
 
-[[I would like to study the revenue by analyzing Price per unit and the No. of Units sold as: Revenue = Average price per unit * Volume sold.-&gt;fb2]]
+(set: $J2 to 0)(if: $J1 is 1)[[I believe Uber should introduce assisted vaccine slot booking through its customer executive for customers with convenience charges to generate extra revenue.-&gt;fb7]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="23" name="fbnew" tags="" position="1576,1018" size="100,100">(set: $ps to $ps - 3)
+</tw-passagedata><tw-passagedata pid="22" name="fbnew" tags="" position="880,1655" size="100,100">(set: $ps to $ps - 3)
 (set: $synthesis to $synthesis - 4)
 (set: $structuring to $structuring - 5)
 (set: $rigor to $rigor - 4)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-I am afraid that isn&#39;t a feasible solution, how would you like to go further?
+That’s a good idea. How do you intend to go about on that?
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -874,18 +855,21 @@ I am afraid that isn&#39;t a feasible solution, how would you like to go further
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[The costs seem unalterable. Overall I believe we cannot do much on the cost side.-&gt;fbnew2]]
+[[Real-time location access to family members, sharing biodata to the driver with the customer and an additional feature of cancelling the ride midway, can bring in some sense of security to our valued female customers.-&gt;fbnew3]]
+
+[[We could ask our female members to carry pepper spray and dress conservatively when taking a ride.-&gt;fbnew4]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="24" name="fbnew2" tags="" position="1802,750" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="23" name="fbnew2" tags="" position="583,1431" size="100,100">(set: $ps to $ps - 5)
+(set: $rigor to $rigor - 2)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-You are correct
-Let&#39;s analyse the revenue lever now to break down the problem furthers
-
+AC in a closed vehicle will be bad idea due to the COVID. I am sure even customers wouldn’t want to lock themselves in with a stranger(driver) with cool circulating air.
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -893,88 +877,38 @@ Let&#39;s analyse the revenue lever now to break down the problem furthers
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[Continue.-&gt;opt1.1.2.1.2.1]]
+[[That makes sense. I would want to propose measures for the security of our female customers.-&gt;fbnew]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="25" name="opt1.1.2.1.2.1" tags="" position="2033,504" size="100,100">(set: $J1 to 1)
+</tw-passagedata><tw-passagedata pid="24" name="opt1.1.2.1.2.1" tags="" position="1803,562" size="100,100">(set: $J1 to 1)
 (set: $J2 to 1)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Analysis&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Guesstimate&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Solutions&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Sounds good. What are the key parameters you want to analyse the revenue on?
-&lt;/b&gt;
+Sounds good! What are the most frequently travelled places/use cases for the customers  during the pandemic do you think we should focus on? &lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I believe the revenue depends on the location of the restaurant, as which type of customers come and buy their products.-&gt;fb1]]
-
-[[I would like to study the revenue by analyzing Price per unit and the No. of Units sold as: Revenue = Average price per unit * Volume sold.-&gt;fb2]]
-
-[[I believe the average price per product sold is too low and hence we should increase the prices to drive the revenue.-&gt;fb3]]
+[[Continue.-&gt;pp2]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="26" name="fa4" tags="" position="1013.6666666666666,872.3333333333334" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-Go Ahead.
-&lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[I believe we should cut down on utilities cost such as electricity and water bills.-&gt;fabb]]
-
-[[The Fixed costs are unchangeable, so only the cost for raw material can be altered.-&gt;fa5]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="27" name="opt1.1.2.1.3" tags="" position="382,386" size="100,100">(set: $ps to $ps - 5)
-(set: $synthesis to $synthesis - 6)
-(set: $structuring to $structuring - 8)
-(set: $rigor to $rigor - 5)
+</tw-passagedata><tw-passagedata pid="25" name="fa4" tags="" position="978,2180" size="100,100">(set: $synthesis to $synthesis - 9)
+(set: $structuring to $structuring - 6)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Saying, profitability depends only on revenue, not on costs is not the right thing as the main 2 levers that profits depend on are Revenue and Costs? &lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[Profitability is revenue minus costs. Let’s look at Revenue and Costs to look at ways to improve profitability .-&gt;opt1.1.2.1.1]]
-
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="28" name="fabb" tags="" position="1574,777" size="100,100">(set: $ps to $ps - 2)
-(set: $synthesis to $synthesis - 3)
-(set: $structuring to $structuring - 4)
-(set: $rigor to $rigor - 3)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-That would severely impede the functionality of the restaurant. We shouldn&#39;t compromise with utilities.
-Raw Materials as pointed out earlier, can be the only domain where changes can be made.
-
+I highly doubt the customers will be willing to take so much pain to ride a taxi. You might want to reconsider.
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -982,42 +916,37 @@ Raw Materials as pointed out earlier, can be the only domain where changes can b
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I believe the restaurant should start building a farming infrastructure to reduce the raw material costs.-&gt;fbnew]]
-
-[[The costs seem unalterable. Overall I believe we cannot do much on the cost side.-&gt;fbnew2]]
+[[We can ensure sanitization after every customer use and the drivers can get a thin plastic sheet to make a wall between themselves and the customer.-&gt;fa3]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="29" name="fa5" tags="" position="1368.3333333333333,1159" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="26" name="fa5" tags="" position="614,1805" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-That makes sense. How will you leverage it to reduce the costs.
-&lt;/b&gt;
+Yes! That&#39;s actually a good idea.  Any additional problems you could think of?&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I believe the restaurant should start building a farming infrastructure to reduce the raw material costs.-&gt;fbnew]]
+[[For our female customers, we need to provide additional security measures so that they can ride with independence and security.-&gt;fbnew]]
 
-[[The costs seem unalterable. Overall I believe we cannot do much on the cost side.-&gt;fbnew2]]
+[[Ensuring AC access in all functioning uber cars. Some customers complained previously, that the AC was not working.-&gt;fbnew2]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="30" name="fa6" tags="" position="996.6666666666666,1269" size="100,100">(set: $ps to $ps - 5)
-(set: $synthesis to $synthesis - 6)
-(set: $structuring to $structuring - 8)
-(set: $rigor to $rigor - 5)
+</tw-passagedata><tw-passagedata pid="27" name="fa6" tags="" position="1349,2349" size="100,100">(set: $ps to $ps -4)
+(set: $rigor to $rigor - 4)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-That&#39;s a wrong approach.  Let us begin again on the cost side.
+That doesn’t make much sense. Any other sources you could think of?
 &lt;/b&gt;
 
   &lt;/div&gt;
@@ -1026,381 +955,686 @@ That&#39;s a wrong approach.  Let us begin again on the cost side.
   &lt;div class=&quot;centered&quot;&gt;
 
 
-[[I would want to break the cost into two components: Fixed costs and Variable costs.-&gt;fa1]]
-
-[[I’d like to explore whether it’s possible to increase revenues.-&gt;opt1.1.2.1.2.1]]
+[[Any Contact with the driver and car seat if they have been infected or recently been in contact with a Covid+ person.-&gt;fa1]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-  </tw-passagedata><tw-passagedata pid="31" name="fb2" tags="" position="2083,1032" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+  </tw-passagedata><tw-passagedata pid="28" name="fb2" tags="" position="2059,958" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Nice, you have broken down the revenue into 2 components. Which component do you want to analyze first? &lt;/b&gt;
+Sounds good. What do you propose?&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I would like to compare the Price per unit of this restaurant to its competitors in the market as it might be charging low amount.-&gt;fb4]]
+[[I believe Uber should provide free rides to users for hospitalisation and vaccination.-&gt;fb4]]
 
-[[I would like to look at the various factors affecting the volume sold by the restaurant.-&gt;fb5]]
+[[I think, transportation during hospitalisation requires special provisions in the vehicles hence Uber taxis won&#39;t be of possible use. Hence, driving demand through possible product features for vaccination could help increase demand.-&gt;fb5]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="32" name="fb4" tags="" position="1968,1357" size="100,100">(set: $ps to $ps - 3)
-(set: $synthesis to $synthesis - 4)
-(set: $structuring to $structuring - 5)
-(set: $rigor to $rigor - 3)
+</tw-passagedata><tw-passagedata pid="29" name="fb4" tags="" position="2053,1306" size="100,100">(set: $synthesis to $synthesis - 6)
+(set: $structuring to $structuring - 6)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-I am afraid we don&#39;t have much data on this, lets explore the volume side to proceed. &lt;/b&gt;
+That could be a possibility but directly jumping into conclusion without analysing the needs and costs involved is not advisable. Why don&#39;t you analyse the demand during vaccination better first.&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I would like to look at the various factors affecting the volume sold by the restaurant.-&gt;fb5]]
+[[Considering the unavailability of vaccine slots across the nation, Uber could introduce a notifier system to give customers real time notification as soon as vaccine become available, which could be possible considering the open-source nature of COWIN API.-&gt;fb10]]
+
+[[I believe Uber should introduce assisted vaccine slot booking through its customer executive for customers with convenience charges to generate extra revenue.-&gt;fb7]]
 
 &lt;/div&gt;
-  &lt;/div&gt;3</tw-passagedata><tw-passagedata pid="33" name="fb5" tags="" position="2145,1296" size="100,100">(set: $M1 to 1)
+  &lt;/div&gt;3</tw-passagedata><tw-passagedata pid="30" name="fb5" tags="" position="2288,1349" size="100,100">(set: $M1 to 1)
 (set: $M2 to 1)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Perfect, looking at the factors affecting the volume sold will give us a better picture of the restaurant policies and infrastructure. Which factor do you want to analyze first? &lt;/b&gt;
+Fair enough, please go on.&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[A possible degradation in the quality of the food could be a major reason for the lower volume sold hence I would like to analyze the quality of food served before we move forward.-&gt;fb6]]
+[[Considering the unavailability of vaccine slots across the nation, Uber could introduce a notifier system to give customers real time notification as soon as vaccine become available, which could be possible considering the open-source nature of COWIN API.-&gt;fb10]]
 
-[[Lack of awareness among the public couId be a major reason. So, I would like to analyse the marketing strategies of the restaurant.-&gt;fb7]]
-
-[[I would like to analyse the infrastructure of the restaurant, which will tell us about the No. of customers getting served at the restaurant  .-&gt;fb8]]
+[[I believe Uber should introduce assisted vaccine slot booking through its customer executive for customers with convenience charges to generate extra revenue.-&gt;fb7]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="34" name="fb6" tags="" position="1902,1577" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="31" name="fb6" tags="" position="2283,1796" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Good going, low quality of food can be a major reason for lower volume sold. But how would you find about the quality of food of the restaurant?   &lt;/b&gt;
+Okay, let&#39;s take that route. How do you want to proceed? &lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I would like to enquire about the restaurant from the nearby houses and shops about its food quality.-&gt;fb9]]
+[[I would want to analyse the reasons due to which customers might feel unsafe in using our service.-&gt;fb16]]
 
-[[I would like to check with the restaurant ratings, customers reviews, and their comments on various dining apps to check this aspect.-&gt;fb10]]
+[[How unsafe do customers find our service in these times.-&gt;fb11]]
 
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="35" name="fb7" tags="" position="2160,1541" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="32" name="fb7" tags="" position="1891,1616" size="100,100">(set: $ps to $ps - 6)
+(set: $synthesis to $synthesis - 4)
+(set: $structuring to $structuring - 4)
+(set: $rigor to $rigor - 6)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Analysis&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Guesstimate&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Solutions&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Fair enough, as lack of awareness can cause less no. of customers, hence lower volume sold. Which type of marketing strategies do you want to analyse?  &lt;/b&gt;
-
+That could be a possibility but does not align with Uber&#39;s current offering and hence won&#39;t be a good decision as a Product Manager. &lt;/b&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 
-[[I would like to analyse the online presence of the restaurant by seeing their different campaigns and promotions on their social media accounts.-&gt;fb11]]
+[[Considering the unavailability of vaccine slots across the nation, Uber could introduce a notifier system to give customers real time notification as soon as vaccine become available, which could be possible considering the open-source nature of COWIN API.-&gt;fb10]]
 
-[[I would like to analyse the offline presence as whether the restaurant has registered with famous dining apps, offer discounts or has logo or taglines.-&gt;fb11]]
 
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="36" name="fb8" tags="" position="2497,1454.3333333333333" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="33" name="fb8" tags="" position="1263,887" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
          &lt;b&gt;
-Great! This could be one of the reasons for lowering down of the volume sold. 
-Let&#39;s analyse the data of some infrastructure details of the restaurant.
-&lt;img src=&quot;https://www.dropbox.com/s/s60a4iagimfonwy/res2.png?raw=1&quot; style=&quot;object-fit: cover&quot; width=100% height=80%&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/68jhuvaralzpuex/res1.png?raw=1&quot; style=&quot;object-fit: cover&quot; width=100% height=80%&gt;
-
-Now, the restaurant operates 12 hours a day from 10 AM to 10 PM in which 2 PM –4 PM and 8 PM-10 PM are the peak hours and the rest are non-peak hours. We can assume 100% occupancy in peak hours whereas 50% in non-peak hours. Also, a table can&#39;t be shared by 2 groups.  Also, the average time taken by a group to finish its meal is 20 mins.  &lt;/b&gt;
+Great! Let&#39;s analyze the data of Delhi pre and post pandemic to determine the fall in the frequency of visits
+So, what all data points do you need to calculate the frequency of visits per day on the app in Delhi pre-pandemic and post-pandemic?
+&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;split right&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
 &lt;form&gt;
-(css: &#39;color:black&#39;)[What is the earnings per day of the restaurant before 3 months?&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v1&quot;&gt;]
-(css: &#39;color:black&#39;)[What is the earnings per day of the restaurant in the current situation?&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v3&quot;&gt;]
-(css: &#39;color:black&#39;)[What is the % reduction (round to nearest integer) in the earnings per day in the restaurant from the past 3 months?&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v2&quot;&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the population of Delhi?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ1&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the distribution of population of Delhi according to various income groups?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ2&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the percentage of each income group using cabs for daily transportation?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ3&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the distribution of population of Delhi according to various age groups?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ4&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;Among the people which use Uber rides, what is the percentage of them using it for office purposes and general purposes?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ5&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the no. of visits done by office and general users respectively pre-pandemic?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ6&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the average no. of visits by a person living in Delhi?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ7&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;What is the no. of visits done by office and general users respectively post-pandemic?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ8&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;Among the people which use cabs, what is the percentage of them using  Uber?&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vQ9&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+&lt;/form&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;
+&lt;/div&gt;
+&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;fb81]]&lt;/span&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="34" name="fb9" tags="" position="1840,1995" size="100,100">
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+I think that&#39;s a good idea. &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[The cab can be a potential source of covid transmission for the consumers dues to which they might be reluctant to use the cab service.-&gt;fb15]]
+
+(set: $M2 to 0)(if: $M1 is 1)[[People could be afraid to drive with a total stranger, especially when there is a scarce number of people outside.-&gt;fb17]]
+
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="35" name="fb10" tags="" position="2231,1575" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Good thinking, do you think we there could also be any further upsides for Uber through this integration? &lt;/b&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+(set: $M1 to 0)(if: $M2 is 1)[[Possibly, we could also create a vaccination timeline for the users and help them with the transportation through special discounts if they use Uber while going for vaccination. .-&gt;fb14]]
+
+[[Uber should provide free taxi for vaccination purposes .-&gt;fb13]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="36" name="fb11" tags="" position="2090,1749" size="100,100">(set: $synthesis to $synthesis - 4)
+(set: $structuring to $structuring - 4)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+It&#39;s difficult to quantify, but enough to reduce our engagement with the people.   &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[I would want to analyse the reason people feel unsafe using uber.-&gt;fb9]]
+
+(set: $M2 to 0)(if: $M1 is 1)[[How significantly has the engagement dropped.-&gt;fb19]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="37" name="fb12" tags="" position="1414,949" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+{
+(if: $v1 is 300000)[Great! You have correctly estimated the earnings per day of the restaurant.]
+(if: $v1 &gt; 300000)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 3 Lakhs.]
+(if: $v1 &lt; 300000)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 3 Lakhs.]
+&lt;br&gt;
+(if: $v3 is 36000)[Great! You have correctly estimated the earnings per day of the restaurant.]
+(if: $v3 &gt; 36000)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 36000.]
+(if: $v3 &lt; 36000)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 36000.]
+&lt;br&gt;
+(if: $v2 is 88)[Great! You have correctly estimated the reduction in the earnings per day.]
+(if: $v2 &gt; 88)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the reduction in the earnings per day isn&#39;t quite right. The correct answer is 88.]
+(if: $v2 &lt; 88)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the reduction in the earnings per day isn&#39;t quite right. The correct answer is 88.]
+&lt;br&gt;
+}
+So, now what all steps can Uber implement to improve the number of daily visits on the Uber app? (Multiple Choices can be correct)&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+&lt;form&gt;
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt; Uber should highlight its new services like hospital visits, new safety measures which are provided by them, hence should broadcast these on their app to increase their visits.&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vvQ1&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;Uber should integrate some more features on the app like showing the Covid data in the neighborhood and the destination on which a customer is thinking of going on.&lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vvQ2&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+(css: &#39;color:black&#39;)[&lt;label class=&quot;container&quot;&gt;Uber should include services related to mental health and wellness. Including a small test to check one&#39;s mental health and sending out tips for mental peace everyday  &lt;input type=&quot;checkbox&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;vvQ3&quot;&gt;&lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;]
+&lt;/form&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;
+&lt;/div&gt;
+&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;fb21]]&lt;/span&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="38" name="fb14" tags="" position="2495,1819" size="100,100">(set: $A1 to 1)
+(set: $A2 to 1)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Perfect, this could help increase ride volumes and goodwill among customers while not losing much on the revenue.
+
+Great, you have identified the pain-points and solutions for the demand problem. Let&#39;s move to the second bucket i.e. safety.
+&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[I would want to proceed by analyzing the safety of uber and customer perception regarding it.-&gt;fb6]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="39" name="fb13" tags="" position="2741,1886" size="100,100">(set: $synthesis to $synthesis - 3)
+(set: $structuring to $structuring - 4)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+I understand where this is coming from but as product manager, you should take into account the cost benefit analysis in mind. While this could definitely help increase ride volume with increased costs to Uber, it might not help in retention of users and could quite possibly become a loss making campaign.
+&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[Possibly, we could also create a vaccination timeline for the users and help them with the transportation through special discounts if they use Uber while going for vaccination.-&gt;fb14]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="40" name="fb15" tags="" position="2167,2147" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+ Could you think of an specific sources of transmission in the car? &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[Any Contact with the driver and car seat if they have been infected or recently been in contact with a Covid+ person.-&gt;fa1]]
+
+(set: $A1 to 0)(if: $A2 is 1)[[Car windows as a source of transmission as the virus could travel through air.-&gt;fa6]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="41" name="fb16" tags="" position="2486,2155" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Good way to start. Go on.
+&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[The cab can be a potential source of covid transmission for the consumers dues to which they might be reluctant to use the cab service.-&gt;fb15]]
+
+(set: $A1 to 0)(if: $A2 is 1)[[People could be afraid to drive with a total stranger, especially when there is a scarce number of people outside.-&gt;fb17]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="42" name="fb17" tags="" position="2700,2032" size="100,100">(set: $ps to $ps - 3)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+That doesn&#39;t sound to be a very believable reason. Please reconsider your option. &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+(set: $A2 to 0)(if: $A1 is 1)[[The cab can be a potential source of covid transmission for the consumers dues to which they might be reluctant to use the cab service.-&gt;fb15]]
+
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="43" name="pp" tags="" position="1180,4" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+       &lt;b&gt;Now let&#39;s discuss the pain points&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+&lt;form&gt;
+
+(css: &quot;color: black;&quot;)[&lt;label class=&quot;container&quot;&gt;Demand problem&lt;input type=&quot;checkbox&quot; data-varname=&quot;nQ1&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Safety during the pandemic&lt;input type=&quot;checkbox&quot; data-varname=&quot;nQ2&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;High airport travel pricing&lt;input type=&quot;checkbox&quot; data-varname=&quot;nQ3&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Driver partner behavior&lt;input type=&quot;checkbox&quot; data-varname=&quot;nQ4&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Engagement of users when not requiring cabs&lt;input type=&quot;checkbox&quot; data-varname=&quot;nQ5&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Surge pricing during odd times &lt;input type=&quot;checkbox&quot; data-varname=&quot;nQ6&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;/form&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;
+&lt;/div&gt;
+]
+&lt;span class=&#39;green&#39;&gt;[[Submit-&gt;ppanswers]]&lt;/span&gt;
+&lt;/div&gt;
+  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="44" name="ppanswers" tags="" position="1227,134" size="100,100">Double-click this passage to edit it.&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+       &lt;b&gt;For all the questions you have asked, these are the answers to the relevant questions :
+&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+{
+(if: $nQ1 is &quot;on&quot;)[&lt;b&gt;Demand problem &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[No&lt;/div&gt;]]
+(if: $nQ2 is &quot;on&quot;)[&lt;b&gt; Safety during the pandemic &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Yes
+&lt;/div&gt;]]
+(if: $nQ3 is &quot;on&quot;)[&lt;b&gt; High airport travel pricing &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[No&lt;/div&gt;]]
+(if: $nQ4 is &quot;on&quot;)[&lt;b&gt; Driver partner behavior&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[No&lt;/div&gt;]]
+(if: $nQ5 is &quot;on&quot;)[&lt;b&gt; Engagement of users when not requiring cabs  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Yes&lt;/div&gt;]]
+(if: $nQ6 is &quot;on&quot;)[&lt;b&gt; Surge pricing during odd times &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Yes relevant but shall not be considered for the case due to COVID pandemic&lt;/div&gt;]]
+}
+&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;Q1]]&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="45" name="pp2" tags="" position="1112,578" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+       &lt;b&gt;Select the use cases/travelled places.&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+&lt;form&gt;
+
+(css: &quot;color: black;&quot;)[&lt;label class=&quot;container&quot;&gt;Travelling to a friend&#39;s house &lt;input type=&quot;checkbox&quot; data-varname=&quot;Q1&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Hospital visit&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q2&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Religious visits&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q3&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Grocery shopping visits&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q4&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;label class=&quot;container&quot;&gt;Outstation travels&lt;input type=&quot;checkbox&quot; data-varname=&quot;Q5&quot;&gt;
+  &lt;span class=&quot;checkmark&quot;&gt;&lt;/span&gt;&lt;/label&gt;
+&lt;/form&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;
+&lt;/div&gt;
+]
+&lt;span class=&#39;green&#39;&gt;[[Submit-&gt;pp2answers]]&lt;/span&gt;
+&lt;/div&gt;
+  &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="46" name="pp2answers" tags="" position="1289,637" size="100,100">Double-click this passage to edit it.&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+       &lt;b&gt;For all the questions you have asked, these are the answers to the relevant questions :
+&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+(if: $Q1 is &quot;on&quot;)[&lt;b&gt;Travelling to a friend&#39;s house&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[No&lt;/div&gt;]]
+(if: $Q2 is &quot;on&quot;)[&lt;b&gt; Hospital visit.&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Yes
+&lt;/div&gt;]]
+(if: $Q3 is &quot;on&quot;)[&lt;b&gt; Religious visits &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[No&lt;/div&gt;]]
+(if: $Q4 is &quot;on&quot;)[&lt;b&gt;Grocery shopping visits&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Yes&lt;/div&gt;]]
+(if: $Q5 is &quot;on&quot;)[&lt;b&gt; Outstation travels&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[No&lt;/div&gt;]]
+&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;fa9]]&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="47" name="fa9" tags="" position="2182,815" size="100,100">(set: $J1 to 1)
+(set: $J2 to 1)
+
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Considering medical needs are of foremost importance during the pandemic, we shall focus on understanding pain-points during this scenario only to create possible solutions for the customers. What is your hypothesis? &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[Considering customers majorly need to go to the hospitals in case of hospitalisation and vaccination during this time, we could look into possible features to facilitate these.-&gt;fb2]]
+
+[[I believe Uber should partner with leading healthcare institutions like Apollo and Fortis to provide its customers premium service.-&gt;fb3]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="48" name="fb19" tags="" position="2045,1886" size="100,100">(set: $synthesis to $synthesis - 2)
+(set: $structuring to $structuring - 3)
+(set: $rigor to $rigor - 3)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+I believe we are digressing from the issue at hand. Why don’t you start by analysing the reasons for customers feeling unsafe.   &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[The cab can be a potential source of covid transmission for the consumers dues to which they might be reluctant to use the cab service.-&gt;fb15]]
+
+(set: $M2 to 0)(if: $M1 is 1)[[People could be afraid to drive with a total stranger, especially when there is a scarce number of people outside.-&gt;fb17]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="49" name="fbnew3" tags="" position="1017,1428" size="100,100">
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Well done! I think we have a holistic solution for this part.&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[Continue.-&gt;fbnew5]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="50" name="fbnew4" tags="" position="819,1129" size="100,100">(set: $ps to $ps - 2)
+(set: $rigor to $rigor - 3)
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+I am sorry but that is not a good answer. Anyway, moving on.&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[Continue.-&gt;fbnew5]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="51" name="fbnew5" tags="" position="1047,1023" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Now, coming to the last pain point. How can we analyze the consumers engagement on Uber apps?&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[I would like to study the data of the frequency of visits on the Uber app by the customers.-&gt;fb8]]
+
+[[I would like to analyze the latest reviews and ratings given by the customers for the app.-&gt;fbnew6]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="52" name="fbnew6" tags="" position="1244,1289" size="100,100">(set: $ps to $ps - 10)
+(set: $synthesis to $synthesis - 12)
+(set: $structuring to $structuring - 10)
+(set: $rigor to $rigor - 10)
+
+
+&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+I am afraid this isn&#39;t right. &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+
+[[I would like to study the data of the frequency of visits on the Uber app by the customers.-&gt;fb8]]
+
+&lt;/div&gt;
+  &lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="53" name="fb81" tags="" position="1490,770" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+       &lt;b&gt;For all the questions you have asked, these are the answers to the relevant questions :
+&lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+{
+(if: $vQ1 is &quot;0&quot;)[&lt;b&gt;What is the population of Delhi?&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+(if: $vQ2 is &quot;0&quot;)[&lt;b&gt; What is the distribution of population of Delhi according to various income groups? &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+(if: $vQ3 is &quot;0&quot;)[&lt;b&gt; What is the percentage of each income group using cabs for daily transportation?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+(if: $vQ4 is &quot;0&quot;)[&lt;b&gt;What is the distribution of population of Delhi according to various age groups?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[This data point is irrelevant to the guesstimate.
+&lt;/div&gt;]]
+(if: $vQ5 is &quot;0&quot;)[&lt;b&gt;Among the people which use Uber rides, what is the percentage of them using it for office purposes and general purposes?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+(if: $vQ6 is &quot;0&quot;)[&lt;b&gt; What is the no. of visits done by office and general users respectively pre-pandemic?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[
+Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+(if: $vQ7 is &quot;0&quot;)[&lt;b&gt; What is the average no. of visits by a person living in Delhi?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[This data point is irrelevant to the guesstimate.
+&lt;/div&gt;]]
+(if: $vQ8 is &quot;0&quot;)[&lt;b&gt; What is the no. of visits done by office and general users respectively post-pandemic?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+(if: $vQ9 is &quot;0&quot;)[&lt;b&gt; Among the people which use cabs, what is the percentage of them using  Uber?  &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[Great! This is relevant to the guesstimate. See the data on the next page.
+&lt;/div&gt;]]
+}
+&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;fb81pp]]&lt;/span&gt;
+&lt;/div&gt;
+  &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="54" name="fb81pp" tags="" position="1659,865" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+         &lt;b&gt;
+Alright, now answer the questions given. 
+&lt;img src=&quot;https://www.dropbox.com/s/g5cwtdezpantqts/prod1.png?raw=1&quot; style=&quot;object-fit: cover&quot; width=100% height=80%&gt;
+ &lt;/b&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+&lt;form&gt;
+(css: &#39;color:black&#39;)[What is the total no. of visits done by the Delhi people per day pre-pandemic?&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v1&quot;&gt;]
+(css: &#39;color:black&#39;)[What is the total no. of visits done by the Delhi people per day post-pandemic?&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v3&quot;&gt;]
+(css: &#39;color:black&#39;)[Determine the percentage fall in the no. of visits from pre-pandemic to post-pandemic.&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v2&quot;&gt;]
 &lt;/form&gt;
 &lt;script&gt;processInputElementsInt();&lt;/script&gt;
 &lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;fb12]]&lt;/span&gt;
 &lt;/div&gt;
   &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="37" name="fb9" tags="" position="1920,1827" size="100,100">(set: $ps to $ps - 4)
-(set: $synthesis to $synthesis - 5)
-(set: $structuring to $structuring - 5)
-(set: $rigor to $rigor - 4)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="55" name="fb21" tags="" position="1419,1123" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-This would be an infeasible and a really hard task as compared to getting the restaurant ratings, customer reviews and feedback from the dining apps. Hence, let&#39;s check the dining apps. &lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[Continue.-&gt;fb10]]
-
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="38" name="fb10" tags="" position="2070,1827" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-The restaurant has amazing ratings and reviews on all the dining apps. Customers have written some amazing comments emphasizing the good quality of food.
-It seems that this is not the right reason hence, let&#39;s analyse other plausible reasons. &lt;/b&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-(set: $M1 to 0)(if: $M2 is 1)[[Lack of awareness among the public couId be a major reason. So, I would like to analyse the marketing strategies of the restaurant.-&gt;fb7]]
-
-[[I would like to analyse the infrastructure of the restaurant, which will tell us about the No. of customers getting served at the restaurant .-&gt;fb8]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="39" name="fb11" tags="" position="2215,1832" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-The restaurant has both great online and offline presence. They regualrly run social campaigns, promotions on social media, are registered with all the dining apps, offer discounts and aslo has a catchy tagline
-It seems that this is not the right reason hence, let&#39;s analyse other plausible reasons.   &lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[I would like to analyse the infrastructure of the restaurant, which will tell us about the No. of customers getting served at the restaurant  .-&gt;fb8]]
-
-(set: $M2 to 0)(if: $M1 is 1)[[A possible degradation in the quality of the food could be a major reason for the lower volume sold hence I would like to analyze the quality of food served before we move forward.-&gt;fb6]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="40" name="fb12" tags="" position="2555,1629" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
+       &lt;b&gt;
 {
-(if: $v1 is 10800)[Great! You have correctly estimated the earnings per day of the restaurant.]
-(if: $v1 &gt; 10800)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 10800.]
-(if: $v1 &lt; 10800)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 10800.]
-&lt;br&gt;
-(if: $v3 is 53760)[Great! You have correctly estimated the earnings per day of the restaurant.]
-(if: $v3 &gt; 53760)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 53760.]
-(if: $v3 &lt; 53760)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the the earnings per day of the restaurant isn&#39;t quite right. The correct answer is 53760.]
-&lt;br&gt;
-(if: $v2 is 47)[Great! You have correctly estimated the reduction in the earnings per day.]
-(if: $v2 &gt; 47)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the reduction in the earnings per day isn&#39;t quite right. The correct answer is 47.]
-(if: $v2 &lt; 47)[(set: $ps to $ps - 10)(set: $rigor to $rigor - 10)(set: $synthesis to $synthesis - 8)Your estimate for the reduction in the earnings per day isn&#39;t quite right. The correct answer is 47.]
-&lt;br&gt;
+(if: $vvQ1 is &quot;0&quot;)[](else:)[&lt;b&gt; Uber should highlight its new services like hospital visits, new safety measures which are provided by them, hence should broadcast these on their app to increase their visits.&lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[This was also a nice solution.
+&lt;/div&gt;]]
+(if: $vvQ2 is &quot;1&quot;)[](else:)[&lt;b&gt; Uber should integrate some more features on the app like showing the Covid data in the neighborhood and the destination on which a customer is thinking of going on &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[This was not a correct solution.
+&lt;/div&gt;]]
+(if: $vvQ3 is &quot;0&quot;)[](else:)[&lt;b&gt; Uber should include services related to mental health and wellness. Including a small test to check one&#39;s mental health and sending out tips for mental peace everyday &lt;/b&gt;
+&lt;div style=&quot;&quot;&gt;(css: &quot;color: black;&quot;)[This was also a nice solution.
+&lt;/div&gt;]]
 }
-So, now what do you think of the restaurant&#39;s policy of changing the 2-seater arrangement to 6-seater arrangement? &lt;/b&gt;
+Bravo! These are some nice solutions for improving the number of daily visits.
+Besides some new services and features there should be something more for the consumers.
+What it can be?
+&lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+[[Uber can introduce a reward points system in the app which will basically lure consumers to use their services and features more often on the app by just sitting at home and earn rewards.-&gt;fb23]]
 
-[[In my view, this is the major reason of lowered volume as there are less no of tables, hence less no of groups are getting accommodated. As most of the groups are couples and bachelors, hence increasing the seats per table would not affect much.-&gt;fb14]]
-
-[[This is a good strategy adopted by the restaurant as by increasing the seats per table would help them to accommodate families easily.-&gt;fb13]]
+[[Uber can send out daily notifications and messages through the app reminding the consumer of the app and the various services and features on it.-&gt;fb22]]
 
 &lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="41" name="fb14" tags="" position="2437,1776" size="100,100">(set: $A1 to 1)
-(set: $A2 to 1)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-Bravo! You have correctly identified the main reason behind the decline of the sales of the restaurant over the past 3 months.
-
-Now, let&#39;s move on to find the solutions for it. &lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[Restoring the old seating arrangement of 2 seats per table and can continue with that as it will help us accommodate more groups.-&gt;fb15]]
-
-[[Following a hybrid model of 1-seater, 2-seater and 6-seater arrangement for bachelors, couples and families. This will help us to accommodate more number and different set of groups with no extra seats bought.-&gt;fb16]]
-
-[[Increasing the no. of seats by purchasing more but continuing with the same 6-seating arrangement as it will help us accommodate more number and larger groups.-&gt;fb17]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="42" name="fb13" tags="" position="2685,1772" size="100,100">(set: $ps to $ps - 6)
+  &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="56" name="fb22" tags="" position="1404,1440" size="100,100">(set: $ps to $ps - 10)
 (set: $synthesis to $synthesis - 8)
 (set: $structuring to $structuring - 10)
-(set: $rigor to $rigor - 8)
+(set: $rigor to $rigor - 10)
 
 &lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;split left&quot;&gt;
   &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-The percentage of customers that are families are merely 30% whereas the percentage of couples and bachelors are 70%, hence this is not a good strategy. Actually, this is the main reason behind less volume.
+       &lt;b&gt;
+That&#39;s not quite right. Anyways let move to the evaluation.
 &lt;/b&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[Continue.-&gt;fb14]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="43" name="fb15" tags="" position="2275,1962" size="100,100">(set: $ps to $ps - 3)
-(set: $synthesis to $synthesis - 4)
-(set: $structuring to $structuring - 5)
-(set: $rigor to $rigor - 3)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-Fine enough, as this will surely increase the revenue but a more optimized and better solution can be thought of. &lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-[[Following a hybrid model of 1-seater, 2-seater and 6-seater arrangement for bachelors, couples and families. This will help us to accommodate more number and different set of groups with no extra seats bought.-&gt;fb16]]
-
-(set: $A1 to 0)(if: $A2 is 1)[[Increasing the no. of seats by purchasing more but continuing with the same 6-seating arrangement as it will help us accommodate more number and larger groups.-&gt;fb17]]
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="44" name="fb16" tags="" position="2430,2049" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-Well Done! The best solution would be to introduce a hybrid model of 1-seater, 2-seater and 6-seater arrangement.
-Now could you find the composition of the hybrid model proposed using the information below:
-Total No of Seats: 48
-Assume that all answers are less than 10.
-&lt;img src=&quot;https://www.dropbox.com/s/68jhuvaralzpuex/res1.png?raw=1&quot; style=&quot;object-fit: cover&quot; width=100% height=80%&gt;
-&lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-&lt;form&gt;
-(css: &#39;color:black&#39;)[How many tables are there with 1-seating arrangement? &lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v1&quot;&gt;]
-(css: &#39;color:black&#39;)[How many tables are there with 2-seating arrangement?&lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v2&quot;&gt;]
-(css: &#39;color:black&#39;)[How many tables are there with 6-seating arrangement? &lt;input type=&quot;number&quot; style=&#39;font-size: 16px;&#39; value = &#39;0&#39; data-varname=&quot;v3&quot;&gt;]
-&lt;/form&gt;
-&lt;script&gt;processInputElementsInt();&lt;/script&gt;
-&lt;span class=&#39;green&#39;&gt;[[Click here to continue-&gt;fb18]]&lt;/span&gt;
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="45" name="fb17" tags="" position="2587,1999" size="100,100">(set: $ps to $ps - 4)
-(set: $synthesis to $synthesis - 5)
-(set: $structuring to $structuring - 6)
-(set: $rigor to $rigor - 4)
-
-&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-This would be a disaster as purchasing more seats will increase our expenditure and costs, hence decreasing the revenue. &lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
-(set: $A2 to 0)(if: $A1 is 1)[[Restoring the old seating arrangement of 2 seats per table and can continue with that as it will help us accommodate more groups.-&gt;fb15]]
-
-[[Following a hybrid model of 1-seater, 2-seater and 6-seater arrangement for bachelors, couples and families. This will help us to accommodate more number and different set of groups with no extra seats bought.-&gt;fb16]]
-
-
-&lt;/div&gt;
-  &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="46" name="fb18" tags="" position="2430,2199" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
-&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Recommendations&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;split left&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-         &lt;b&gt;
-
-{
-(if: $v1 is 2)[Great! You have correctly estimated the number of  tables are there with 1-seating arrangement.]
-(if: $v1 &gt; 2)[(set: $ps to $ps - 7)(set: $rigor to $rigor - 7)(set: $synthesis to $synthesis - 3)Your estimate for the number of tables with 1-seating arrangement isn&#39;t quite right. The correct answer is 2.]
-(if: $v1 &lt; 2)[(set: $ps to $ps - 7)(set: $rigor to $rigor - 7)(set: $synthesis to $synthesis - 3)Your estimate for the number of tables with 1-seating arrangement isn&#39;t quite right. The correct answer is 2.]
-&lt;br&gt;
-(if: $v2 is 5)[Great! You have correctly estimated the number of  tables are there with 2-seating arrangement.]
-(if: $v2 &gt; 5)[(set: $ps to $ps - 7)(set: $rigor to $rigor - 7)(set: $synthesis to $synthesis - 3)Your estimate for the number of tables with 2-seating arrangement isn&#39;t quite right. The correct answer is 5.]
-(if: $v2 &lt; 5)[(set: $ps to $ps - 7)(set: $rigor to $rigor - 7)(set: $synthesis to $synthesis - 3)Your estimate for the number of tables with 2-seating arrangement isn&#39;t quite right. The correct answer is 5.]
-&lt;br&gt;
-(if: $v3 is 8)[Great! You have correctly estimated the number of  tables are there with 6-seating arrangement.]
-(if: $v3 &gt; 8)[(set: $ps to $ps - 7)(set: $rigor to $rigor - 7)(set: $synthesis to $synthesis - 3)Your estimate for the number of tables with 6-seating arrangement isn&#39;t quite right. The correct answer is 8.]
-(if: $v3 &lt; 8)[(set: $ps to $ps - 7)(set: $rigor to $rigor - 7)(set: $synthesis to $synthesis - 3)Your estimate for the number of tables with 6-seating arrangement isn&#39;t quite right. The correct answer is 8.]
-&lt;br&gt;
-}
-
-Lets move to the evaluation.
-&lt;/b&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;split right&quot;&gt;
-  &lt;div class=&quot;centered&quot;&gt;
-
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
 [[Continue.-&gt;end]]
 
 &lt;/div&gt;
-  &lt;/div&gt;
+  &lt;/div&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="57" name="fb23" tags="" position="1673,1469" size="100,100">&lt;div class=&quot;rowelem&quot;&gt;&lt;div class=&quot;scrolly&quot;&gt;
+&lt;div class=&quot;arrow-steps&quot;&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt; &lt;a href=&quot;#&quot; &gt;Scoping&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;step current&quot;&gt;&lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Identification&lt;/a&gt;&lt;/span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L1&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L2&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;div class=&quot;step current&quot;&gt; &lt;span&gt;&lt;a href=&quot;#&quot; &gt;Problem Solving - L3&lt;/a&gt;&lt;span&gt; &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;split left&quot;&gt;
+  &lt;div class=&quot;centered&quot;&gt;
+       &lt;b&gt;
+Perfect. You have nailed down the case. Lets move to the evaluation.
+&lt;/b&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;split right&quot;&gt;&lt;div class=&quot;centered&quot;&gt;
+[[Continue-&gt;end]]
+
+&lt;/div&gt;
+  &lt;/div&gt;&lt;/div&gt;
 </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
