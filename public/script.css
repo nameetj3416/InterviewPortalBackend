@@ -146,19 +146,16 @@ a:link, a:visited{
   font-size:1.7vw;
   line-height: 10px;
 }
-.join{
-  margin:auto;
-  display:block;
-  font-size: 13px;
-  font-size: 1vw;
-}
+
 
 /* BUTTON STYLES */
 .join{
+  margin:auto;
+  display:block;
   padding:10px 15px;
   font-size:14px;
   font-size: 1.1vw;
-  font-weight:100;
+  font-weight:200;
   color:#fff;
   background: black;
   border:0;
@@ -183,7 +180,7 @@ iframe {
    margin: 0 auto;
 }
 .a{
-  decoration:none;
+  text-decoration:none;
 }
 .play{
   padding-right: 10px;
