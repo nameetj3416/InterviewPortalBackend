@@ -162,7 +162,63 @@ app.get('/user', function(req, res) {
     res.redirect('/opthree');
   }
 });
+app.get('/product', function(req, res) {
 
+  if(req.isAuthenticated()){
+    User.find({
+      email: req.user.email
+    }, 
+    function(err, foundUser){
+      if(err){
+        console.log(err);
+      }
+      else{
+        console.log(foundUser)
+        if(req.user.length){
+          var path = require('path');
+          res.sendFile(path.resolve('views/product.html'));
+        }
+        else{
+          var path = require('path');
+          res.sendFile(path.resolve('views/opthree.html'));
+        }
+      }
+    });
+  }
+   else{
+    console.log(req.user._id)
+    res.redirect('/');
+  }
+
+});
+app.get('/restaurant', function(req, res) {
+
+  if(req.isAuthenticated()){
+    User.find({
+      email: req.user.email
+    }, 
+    function(err, foundUser){
+      if(err){
+        console.log(err);
+      }
+      else{
+        console.log(foundUser)
+        if(req.user.length){
+          var path = require('path');
+          res.sendFile(path.resolve('views/product.html'));
+        }
+        else{
+          var path = require('path');
+          res.sendFile(path.resolve('views/opthree.html'));
+        }
+      }
+    });
+  }
+   else{
+    console.log(req.user._id)
+    res.redirect('/');
+  }
+});
 app.get('/intaff', function(req, res) {
 
   if(req.isAuthenticated()){
