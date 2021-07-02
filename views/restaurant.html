@@ -185,6 +185,35 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+@media screen and (max-width: 800px) {
+ 	#container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  	}
+   #subtitle, #share, #slider, #sidebar{
+	  display:none;
+	}
+   .arrow-steps .step{
+	 width: auto;
+	 font-size: auto;
+	 margin: auto;
+  	 padding: auto;
+	 border-bottom: auto;
+  		text-align: center;
+  		float: none;
+  		position: auto;
+   }
+  .arrow-steps .step:after,
+  .arrow-steps .step:before{
+	border: none;
+  }
+  .arrow-steps .step:last-child:after,
+  .arrow-steps .step:first-child:before{
+	border: none;
+  }
+
+	p{ font-size: 1em; }
+}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
 window.processInputElements = function () {
     $('input[data-varname]').on('change', function () {
