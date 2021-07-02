@@ -118,14 +118,11 @@ app.get('/auth/google/user',
     res.redirect('/user');
   });
 
-
-
 app.get('/opthree', function(req, res) {
   var path = require('path');
   res.sendFile(path.resolve('views/opthree.html'));
 });
 app.get('/user', function(req, res) {
-
   if(req.isAuthenticated()){
     User.find({
       email: req.user.email
