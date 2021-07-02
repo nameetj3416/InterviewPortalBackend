@@ -205,7 +205,7 @@ app.get('/restaurant', function(req, res) {
         console.log(foundUser)
         if(req.user.length){
           var path = require('path');
-          res.sendFile(path.resolve('views/product.html'));
+          res.sendFile(path.resolve('views/restaurant.html'));
         }
         else{
           var path = require('path');
