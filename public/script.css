@@ -47,8 +47,8 @@ a:link, a:visited{
 }
 
 .dropdown {
-  font-size: 9px;
-  font-size: 0.8vw;
+  font-size: 11px;
+  font-size: 0.92vw;
   /* position: relative; */
   display: inline-block;
 }
