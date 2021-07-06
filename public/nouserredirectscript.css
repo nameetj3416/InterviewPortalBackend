@@ -1,31 +1,33 @@
 .headerT{
   display: flex;
-  padding-bottom: 30px;
-  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 .header_picT{
   padding-left: 35px;
-  padding-top: 9px;
 }
 .heading{
-  padding-top: 27px;
-  padding-right: 15px;
+  padding-top: 22px;
+
+  padding-right: 120px;
   font-family: 'Cinzel', serif;
 }
 .up{
-  font-size: 20px;
-  font-size: 1.5vw;
+  font-size: 15px;
+  font-size: 1.4vw;
+  padding-bottom: 12px;
 }
 .down{
-  font-size: 14px;
-  font-size: 1vw;
+  font-size: 11px;
+  font-size: 0.92vw;
 
 }
 .links{
-  font-size: 12px;
-  font-size: 1vw;
+  font-size: 11px;
+  font-size: 0.92vw;
   font-family: 'Poppins', sans-serif;
-  padding-top: 50px;
+  padding-top: 40px;
+  /* font-weight: bold; */
 }
 a:link, a:visited{
   padding-right: 13px;
@@ -34,15 +36,16 @@ a:link, a:visited{
 }
 .dropbtn {
   border: none;
-  font-size: 12px;
-  font-size: 1vw;
+  font-size: 11px;
+  font-size: 0.92vw;
   font-family: 'Poppins', sans-serif;
   background-color: white;
+  /* font-weight: bold; */
 }
 
 .dropdown {
-  font-size: 9px;
-  font-size: 0.8vw;
+  font-size: 11px;
+  font-size: 0.92vw;
   /* position: relative; */
   display: inline-block;
 }
@@ -55,7 +58,6 @@ a:link, a:visited{
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
 }
 
