@@ -1,18 +1,19 @@
 .headerT{
   display: flex;
   padding-bottom: 30px;
+  padding-top: 25px;
 }
 .header_picT{
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 35px;
+  padding-top: 9px;
 }
 .heading{
-  padding-top: 35px;
+  padding-top: 27px;
   padding-right: 15px;
   font-family: 'Cinzel', serif;
 }
 .up{
-  font-size: 17px;
+  font-size: 20px;
   font-size: 1.5vw;
 }
 .down{
@@ -21,11 +22,10 @@
 
 }
 .links{
-  font-size: 13px;
+  font-size: 12px;
   font-size: 1vw;
   font-family: 'Poppins', sans-serif;
   padding-top: 50px;
-  font-weight: bold;
 }
 a:link, a:visited{
   padding-right: 13px;
@@ -34,15 +34,15 @@ a:link, a:visited{
 }
 .dropbtn {
   border: none;
-  font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
+  font-size: 1vw;
   font-family: 'Poppins', sans-serif;
   background-color: white;
 }
 
 .dropdown {
-  font-size: 13px;
-  font-size: 1vw;
+  font-size: 9px;
+  font-size: 0.8vw;
   /* position: relative; */
   display: inline-block;
 }
@@ -182,7 +182,16 @@ iframe {
 .a{
   text-decoration:none;
 }
-.play{
-  padding-right: 10px;
+.poster{
   width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+.vid{
+  padding-bottom: 50px;
+}
+.icons{
+  text-align: center;
+  padding-bottom: 30px;
 }
