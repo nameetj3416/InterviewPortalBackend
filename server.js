@@ -134,18 +134,35 @@ app.get('/user', function(req, res) {
       else{
         if(req.user.length){
           let {joinDate} = req.user[0];
+          let {type}=req.user[0];
           joinDate = new Date(joinDate);
-          console.log(joinDate);
-          let curr_date = new Date();
-          curr_date.setMonth((curr_date.getMonth() - 3 + 12)%12);
-          console.log(curr_date);
-          const flag = (joinDate > curr_date);
-          if(flag){
+          if(type==1){
             var path = require('path');
             res.sendFile(path.resolve('views/library.html'));
           }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
           else{
-            res.redirect('/opthree');
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
           }
         }
         else{
@@ -170,21 +187,47 @@ app.get('/product', function(req, res) {
         console.log(err);
       }
       else{
-        console.log(foundUser)
         if(req.user.length){
-          var path = require('path');
-          res.sendFile(path.resolve('views/product.html'));
+          let {joinDate} = req.user[0];
+          let {type}=req.user[0];
+          joinDate = new Date(joinDate);
+          if(type==1){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
+          else{
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
         }
         else{
-          var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.redirect('/opthree');
         }
-      }
     });
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 
 });
@@ -199,21 +242,47 @@ app.get('/restaurant', function(req, res) {
         console.log(err);
       }
       else{
-        console.log(foundUser)
         if(req.user.length){
-          var path = require('path');
-          res.sendFile(path.resolve('views/restaurant.html'));
+          let {joinDate} = req.user[0];
+          let {type}=req.user[0];
+          joinDate = new Date(joinDate);
+          if(type==1){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
+          else{
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
         }
         else{
-          var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.redirect('/opthree');
         }
-      }
     });
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 });
 app.get('/intaff', function(req, res) {
@@ -227,21 +296,47 @@ app.get('/intaff', function(req, res) {
         console.log(err);
       }
       else{
-        console.log(foundUser)
         if(req.user.length){
-          var path = require('path');
-          res.sendFile(path.resolve('views/intaff.html'));
+          let {joinDate} = req.user[0];
+          let {type}=req.user[0];
+          joinDate = new Date(joinDate);
+          if(type==1){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
+          else{
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
         }
         else{
-          var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.redirect('/opthree');
         }
-      }
     });
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 
 });
@@ -257,21 +352,47 @@ app.get('/agricase', function(req, res) {
         console.log(err);
       }
       else{
-        console.log(foundUser)
         if(req.user.length){
-          var path = require('path');
-          res.sendFile(path.resolve('views/agricase.html'));
+          let {joinDate} = req.user[0];
+          let {type}=req.user[0];
+          joinDate = new Date(joinDate);
+          if(type==1){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
+          else{
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
         }
         else{
-          var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.redirect('/opthree');
         }
-      }
     });
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 
 });
@@ -287,21 +408,47 @@ app.get('/drinkingwater', function(req, res) {
         console.log(err);
       }
       else{
-        console.log(foundUser)
         if(req.user.length){
-          var path = require('path');
-          res.sendFile(path.resolve('views/drinkingwater.html'));
+          let {joinDate} = req.user[0];
+          let {type}=req.user[0];
+          joinDate = new Date(joinDate);
+          if(type==1){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
+          else{
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
         }
         else{
-          var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.redirect('/opthree');
         }
-      }
     });
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 
 });
@@ -317,21 +464,47 @@ app.get('/malaria', function(req, res) {
         console.log(err);
       }
       else{
-        console.log(foundUser)
         if(req.user.length){
-          var path = require('path');
-          res.sendFile(path.resolve('views/malaria.html'));
+          let {joinDate} = req.user[0];
+          let {type}=req.user[0];
+          joinDate = new Date(joinDate);
+          if(type==1){
+            var path = require('path');
+            res.sendFile(path.resolve('views/library.html'));
+          }
+          else if(type==2){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +70);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
+          else{
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +84);
+            let curr_date = new Date();
+            if(mydate<curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
         }
         else{
-          var path = require('path');
-          res.sendFile(path.resolve('views/opthree.html'));
+          res.redirect('/opthree');
         }
-      }
     });
   }
    else{
     console.log(req.user._id)
-    res.redirect('/');
+    res.redirect('/opthree');
   }
 
 });
