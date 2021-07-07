@@ -144,7 +144,7 @@ app.get('/user', function(req, res) {
             var mydate = joinDate;
             mydate.setDate(mydate.getDate() +70);
             let curr_date = new Date();
-            if(mydate<curr_date){
+            if(mydate>=curr_date){
               var path = require('path');
               res.sendFile(path.resolve('views/library.html'));
             }
@@ -156,7 +156,7 @@ app.get('/user', function(req, res) {
             var mydate = joinDate;
             mydate.setDate(mydate.getDate() +84);
             let curr_date = new Date();
-            if(mydate<curr_date){
+            if(mydate>=curr_date){
               var path = require('path');
               res.sendFile(path.resolve('views/library.html'));
             }
