@@ -152,9 +152,21 @@ app.get('/user', function(req, res) {
               res.redirect('/opthree');
             }
           }
+          else if(type==0){
+            var mydate = joinDate;
+            mydate.setDate(mydate.getDate() +90);
+            let curr_date = new Date();
+            if(mydate>=curr_date){
+              var path = require('path');
+              res.sendFile(path.resolve('views/library.html'));
+            }
+            else{
+              res.redirect('/opthree');
+            }
+          }
           else{
             var mydate = joinDate;
-            mydate.setDate(mydate.getDate() +84);
+            mydate.setDate(mydate.getDate() +180);
             let curr_date = new Date();
             if(mydate>=curr_date){
               var path = require('path');
